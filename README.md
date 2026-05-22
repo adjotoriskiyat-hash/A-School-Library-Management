@@ -14,11 +14,10 @@ This project strictly follows the MVC (Model-View-Controller) pattern, ensuring 
 
 1. Clone the repository to your local machine or Codespace.
 2. Install dependencies by running: `npm install`
-3. Configure Environment Variables: Create a `.env` file in the root folder and add your credentials (PORT, MONGO_URI, JWT_SECRET).
-4.` PORT=5000
+3. Configure Environment Variables: Create a `.env` file in the root folder and add your credentials (PORT, MONGO_URI, JWT_SECRET). ` PORT=5000
 MONGO_URI=your_mongodb_connection_string
 JWT_SECRET=your_secret_key`
-5. Start the server: `npm run dev`
+4. Start the server: `npm run dev`
 
 ## API Documentation (Endpoints)
 
