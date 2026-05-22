@@ -18,19 +18,16 @@ This project strictly follows the **MVC (Model-View-Controller)** pattern, ensur
    ```bash
       npm install
 
-      ```
        3. **Configure Environment Variables**: Create a .env file in the root folder and add your credentials:
-          ```env
+            env
              PORT=5000
                 MONGO_URI=your_mongodb_connection_string
                    JWT_SECRET=your_secret_key
                       
-                         ```
                           4. **Start the server**:
-                             ```bash
+                                bash
                                 npm run dev
                                    
-                                      ```
                                       ## 📖 API Documentation (Endpoints)
                                       ### Auth (Bonus)
                                        * POST /login - Mock login to generate a JWT for protected routes.
@@ -55,4 +52,3 @@ This project strictly follows the **MVC (Model-View-Controller)** pattern, ensur
                                                       ### Library Attendants
                                                        * POST /attendants - Create a new library attendant
                                                         * GET /attendants - Get all library attendants
-                                                        ```
