@@ -46,4 +46,3 @@ JWT_SECRET=your_secret_key`
 * GET /students/:id - Get a single student
 * POST /attendants - Create a new library attendant
 * GET /attendants - Get all library attendants
-* 
